@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+.App-header {
+  padding-top: 20px;
+=======
+/* Add this class definition to App.css */
+.App-header {
+  padding-top: 20px;
+  /* keep other styles as they are */
+>>>>>>> 9a2b2eaa0a8e500f6a70afb8a16c5f0cdf9d5871
+}
