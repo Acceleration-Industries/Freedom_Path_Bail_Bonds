@@ -1,4 +1,3 @@
-// src/contactData.js
 export const contacts = [
     {
       name: 'William G. Martin',

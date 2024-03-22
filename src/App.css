@@ -1,13 +1,8 @@
-/* src/App.css */
 .App {
   text-align: center;
   margin: 0;
   padding: 0;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 9a2b2eaa0a8e500f6a70afb8a16c5f0cdf9d5871
 .App-header {
   background-color: black;
   background-image: url('../public/images/set-free-icon-.png');
@@ -16,19 +11,27 @@
   background-size: 37%;
   text-align: start;
   min-height: 100vh;
-text-align: center;
+  text-align: center;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-<<<<<<< HEAD
 .App-header {
   padding-bottom: 10px;
-=======
-/* Add this class definition to App.css */
-.App-header {
-  padding-top: 20px;
-  /* keep other styles as they are */
->>>>>>> 9a2b2eaa0a8e500f6a70afb8a16c5f0cdf9d5871
+}
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(24, 24, 24);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+
+}
+::-webkit-scrollbar-track {
+  background: gray;
+  border-radius: 1rem;
 }

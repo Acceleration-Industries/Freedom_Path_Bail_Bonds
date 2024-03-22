@@ -1,7 +1,6 @@
 import React from 'react';
 import { Dialog, DialogTitle, DialogContent, Grid, Card, CardMedia, CardContent, Typography, Button } from '@mui/material';
 import { contacts } from './contactData';
-
 function ContactPopup({ open, onClose }) {
   return (
     <Dialog open={open} onClose={onClose} maxWidth="md" fullWidth>
@@ -41,5 +40,4 @@ function ContactPopup({ open, onClose }) {
     </Dialog>
   );
 }
-
 export default ContactPopup;

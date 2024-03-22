@@ -1,7 +1,6 @@
 import React from 'react';
 import { Dialog, DialogTitle, DialogContent, Grid, Card, CardMedia, CardContent, Typography, Button } from '@mui/material';
 import { attorneys } from './attorneysData';
-
 function AttorneysPopup({ open, onClose }) {
   return (
     <Dialog open={open} onClose={onClose} maxWidth="md" fullWidth>
@@ -22,7 +21,6 @@ function AttorneysPopup({ open, onClose }) {
                     {attorney.name}
                   </Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1.8rem', fontFamily: "'Richsten', sans-serif" }}>
-                    {/* Email: {attorney.email}<br /> */}
                     Phone: {attorney.phone}<br />
                     Website: <a href={attorney.website} target="_blank" rel="noopener noreferrer" style={{ fontSize: '2rem', fontFamily: "'Richardo Flacky', sans-serif" }}>{attorney.website}</a><br />
                     Address: {attorney.address}
@@ -39,5 +37,4 @@ function AttorneysPopup({ open, onClose }) {
     </Dialog>
   );
 }
-
 export default AttorneysPopup;
